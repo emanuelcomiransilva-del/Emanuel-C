@@ -1,0 +1,126 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    color:#fff;
+    min-height:100vh;
+}
+
+/* Cabeçalho */
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+header h1{
+    font-size:3rem;
+    color:#38bdf8;
+    text-shadow:0 0 15px #38bdf8;
+}
+
+header p{
+    margin-top:15px;
+    color:#cbd5e1;
+    font-size:1.1rem;
+}
+
+/* Conteúdo */
+main{
+    max-width:1000px;
+    margin:40px auto;
+    padding:20px;
+}
+
+/* Cards */
+.card{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+    border-radius:20px;
+    padding:25px;
+    margin-bottom:25px;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(56,189,248,.35);
+}
+
+.card h2{
+    color:#38bdf8;
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#e2e8f0;
+    line-height:1.7;
+}
+
+/* Botão */
+button{
+    margin-top:20px;
+    padding:12px 24px;
+    border:none;
+    border-radius:50px;
+    background:linear-gradient(45deg,#0ea5e9,#2563eb);
+    color:white;
+    font-size:15px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #38bdf8;
+}
+
+/* Rodapé */
+footer{
+    text-align:center;
+    padding:25px;
+    background:rgba(255,255,255,.08);
+    color:#cbd5e1;
+    border-top:1px solid rgba(255,255,255,.1);
+}
+
+/* Barra de rolagem */
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0f172a;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#38bdf8;
+    border-radius:20px;
+}
+
+/* Responsivo */
+@media(max-width:768px){
+
+header h1{
+    font-size:2.2rem;
+}
+
+.card{
+    padding:20px;
+}
+
+button{
+    width:100%;
+}
+}
