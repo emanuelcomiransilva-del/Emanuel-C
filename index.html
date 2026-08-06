@@ -1,183 +1,34 @@
-<h1>sustentabilidade em ação</h1>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agrinho - Sustentabilidade em Ação</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Tecnologia</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-body{
-font-family: Arial, sans-serif;
-background:#f1fff1;
-color:#333;
-line-height:1.6;
-}
+    <!-- Ícone -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2721/2721297.png">
 
-header{
-background:linear-gradient(90deg,#2e8b57,#3cb371);
-color:white;
-text-align:center;
-padding:50px 20px;
-}
-
-header h1{
-font-size:3rem;
-margin-bottom:10px;
-}
-
-section{
-max-width:1000px;
-margin:auto;
-padding:40px 20px;
-}
-
-.card{
-background:white;
-padding:30px;
-margin-bottom:25px;
-border-radius:15px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-
-.card h2{
-color:#2e8b57;
-margin-bottom:15px;
-}
-
-.botao{
-margin-top:20px;
-padding:14px 28px;
-border:none;
-border-radius:10px;
-background:#3cb371;
-color:white;
-font-size:1rem;
-cursor:pointer;
-transition:0.3s;
-}
-
-.botao:hover{
-background:#2e8b57;
-transform:scale(1.05);
-}
-
-#linkVideo{
-display:none;
-margin-top:25px;
-padding:20px;
-background:#e8ffe8;
-border-radius:12px;
-animation:aparecer 1s;
-}
-
-#linkVideo a{
-color:#0066cc;
-font-weight:bold;
-text-decoration:none;
-word-break:break-all;
-}
-
-#linkVideo a:hover{
-text-decoration:underline;
-}
-
-footer{
-background:#2e8b57;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
-}
-
-@keyframes aparecer{
-from{
-opacity:0;
-transform:translateY(20px);
-}
-
-to{
-opacity:1;
-transform:translateY(0);
-}
-}
-</style>
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-<h1>🌱 Agrinho</h1>
-<p>Sustentabilidade em Ação</p>
-</header>
+    <!-- Todo o conteúdo será criado pelo JavaScript -->
 
-<section>
+    <noscript>
+        <div style="text-align:center;padding:40px;font-family:Arial;">
+            <h2>JavaScript está desativado</h2>
+            <p>Este blog precisa do JavaScript para carregar o conteúdo.</p>
+        </div>
+    </noscript>
 
-<div class="card">
-<h2>O que é o Agrinho?</h2>
-
-<p>
-O Agrinho é um projeto educacional que promove sustentabilidade,
-cidadania e conscientização ambiental, aproximando o campo e a cidade.
-</p>
-</div>
-
-<div class="card">
-<h2>Sustentabilidade</h2>
-
-<p>
-Sustentabilidade significa cuidar do planeta utilizando os recursos naturais
-de maneira consciente para garantir um futuro melhor para todos.
-</p>
-</div>
-
-<div class="card">
-<h2>Saiba Mais</h2>
-
-<p>
-Clique no botão abaixo para acessar um vídeo explicativo sobre o projeto Agrinho.
-</p>
-
-<button class="botao" onclick="mostrarLink()">
-▶ Mostrar Link do Vídeo
-</button>
-
-<div id="linkVideo">
-
-<p>
-Clique no link abaixo para assistir:
-</p>
-
-<br>
-
-<a href="https://youtube.com/playlist?list=PLHXXZZu7Z7Yh18QRNt91kmOVGEzNYaZVt&si=rn9yXolxB0QlUd1g&quot;
-target="_blank">
-
-https://youtube.com/playlist?list=PLHXXZZu7Z7Yh18QRNt91kmOVGEzNYaZVt&si=rn9yXolxB0QlUd1g
-
-</a>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-<p>🌿 Projeto Agrinho 2026 - Sustentabilidade em Ação</p>
-</footer>
-
-<script>
-function mostrarLink() {
-document.getElementById("linkVideo").style.display = "block";
-}
-</script>
+    <script src="script.js"></script>
 
 </body>
 </html>
